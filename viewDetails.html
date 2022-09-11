@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="icon" href="./img/rel_icon.png">
+    
+         <!-- Importing core bootstrap cdn -->
+         <link rel="stylesheet" href=  "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"integrity=
+     "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+             crossorigin="anonymous">
+              <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"integrity=
+             "sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+         <script src= "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+   
+         <script src="./js/index.js"></script>
+         
+    <title>Bhakt Niwas</title>
+</head>
+<body>
+  <img src="./img/img_title.png" alt="" width="100%" height="180px" >
+ 
+  <nav class="navbar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="viewDetails.html">Add Visitors</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <h1><u><b><i>Visitor Details Form </i></b></u></h1>
+  <div class="flex_div1">
+  <fieldset id="service_fieldset">
+    <legend> Registration</legend>
+        
+    <div class="container">
+        <form action="index.html" method="post">
+          <div class="user-details">
+            <div class="input-box">
+              <span class="details">Registration No.</span>
+              <input class = "effect_input" type="text" name="" id="" placeholder="Enter Registration No." required />
+             
+            </div>
+            <div class="input-box">
+              <span class="details">Customer Name</span>
+              <input class = "effect_input"type="text" name="" id="" placeholder="Enter Customer Name" required />
+            </div>
+            <div class="input-box">
+              <span class="details">Nationality</span>
+              <input class = "effect_input"type="text" name="" id="" placeholder="Enter Nationality" required />
+            </div>
+            <div class="input-box">
+              <span class="details">ID Card No. / Aadhar No.</span>
+              <input class = "effect_input"type="text" name="" id="" placeholder="Enter ID Card No. / Aadhar No." required />
+            </div>
+            
+            <div class="input-box">
+              <span class="details">Contact No.</span>
+              <input class = "effect_input"type="text" name="" id="" placeholder="Enter Contact No." required />
+            </div>
+            <div class="input-box">
+                <span class="details">Address</span>
+                <input class = "effect_input"type="text" name="" id="" placeholder="Enter Address" required />
+            </div>
+            <div class="input-box">
+                <span class="details">Email</span>
+                <input class = "effect_input"type="text" name="" id="" placeholder="Enter Email ID" required />
+            </div>
+          </div>
+      
+          <div class="gender-details input-box">
+            <span class="details">Gender</span><br><br>
+            <input type="radio" name="gender" id="dot-1">
+            <label for="dot-1">
+                <span class="dot one"></span>
+                <span class="gender details">Male</span>
+            </label>
+            <input type="radio" name="gender" id="dot-2">
+            <label for="dot-2">
+                <span class="dot two"></span>
+                <span class="gender details">Female</span>
+            </label>
+            
+           
+          </div>
+          <br>
+          <div class="button_div">
+            <center> <input class= "button" type="submit" value="Register" onclick="alert('Registered Successfully!!!')"/>
+         </center>
+          </div>
+        </form>
+      </div>
+  </fieldset>
+  <img class="img_" src="./img/img2.jpg" alt="">
+  
+  </div><footer>
+    <div>
+        <div class="row">
+          <div class="footer-col">
+            <h4>Modules</h4>
+            <ul>
+                
+             <li>  
+             <a href="services.html">Services Module</a>  
+             </li>  
+             <li> <a href="viewDetails.html">Add Visitors Module</a>  
+             </li>   
+             <li>  
+             <a href="index.html">Room Details Mudule</a>  
+             </li> 
+             <li>  
+             <a href="#">View Visitors Module</a>  
+             </li> 
+             <li>  
+             <a href="services.html">View Rooms Module</a>  
+             </li> 
+             
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Get help</h4>
+            <ul>
+           <li><a href="#">About-Us</a></li> 
+             <li><a href="gallery.html">Gallery</a></li>  
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact Us</h4>
+            <ul>
+                <li><a href="#">&copy; Copyright 2022</a>
+                </li>
+              <li><img src="./img/rel_icon.png" width="70px" alt=""><a href="#">Shree Samadhi Temple<br>Shegaon</a></li>
+              <li><a href="#">Phone Number:1234567890</a></li>
+              <li><a href="#">Email: shegaon_bhakta_niwas@gmail.com</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4><br>
+            <div class="social-links">
+           <a href="#"><img class= "icons" src="./img/fb_icon.png" alt=""></a>
+           <a href="#"><img class= "icons" src="./img/twittr_icon.jpg" alt=""></a>
+           <a href="#"><img class= "icons" src="./img/insta_icon.png" alt=""></a>
+           <a href="#"><img class= "icons" src="./img/utube_icon.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+</footer>
+</body>
+</html>

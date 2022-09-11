@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="icon" href="./img/rel_icon.png">
+     <!-- Importing jquery cdn -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src= "https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"integrity=
+     "sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"   crossorigin="anonymous"></script>
+         <!-- Importing icon cdn -->
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+       
+         <!-- Importing core bootstrap cdn -->
+         <link rel="stylesheet" href=  "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"integrity=
+     "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+             crossorigin="anonymous">
+              <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"integrity=
+             "sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+         <script src= "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+   
+         <script src="./js/index.js"></script>
+         
+    <title>Bhakt Niwas</title>
+</head>
+<body style="background-color:rgb(243, 232, 232);">
+  
+  
+  <img src="./img/img_title.png" alt="" width="100%" height="180px" >
+ 
+  <nav class="navbar">
+    <ul id="navbar_list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="viewDetails.html">Add Visitors</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  <div class="flex_div">
+    <table cellpadding = "2">
+      <tr>
+        <td>
+          
+        </td>
+        <td><img src="./img/img2.jpg" alt="" class="img_"></td>
+        <p>
+          Shri Gajanan Maharaj Sansthan, Shegaon has a separate and systematic arrangement for accommodating thousound of devotees coming from defferent parts of the country for shree's darshan<br>
+          To provide this facility the Sansthan has four Bhakta Niwas (A complex for accommodation complexes; 2 of them in Mandir premises and the other four near parking.(Adjoining to Hattikhana, i.e. place of rest of Sansthan's elephant)<br>
+          In Bhaktaniwas there are attached, common, double bed and deluxe rooms available in great number as per the requirement.<br>
+          The Sansthan has a unique system for providing accommodation at very large extent. But here the practice is on 'first come first serve' basis The devotees (three numbers min) from the same family or more than three people are eligible for the room. 
+          A prior permission from the Sansthan is mandatory for the couple to stay in Bhakta Niwas. At the peak period, an emergency arrangement of 5000 beds is made for devotees in different halls. The devotees from all the sections of the society 
+          can get accommodation in Bhakta Niwas as per the availability and rules of the Shree Sansthan.
+          <br>
+        </p>
+      </tr>
+    </table>
+   
+   <div class="flex_div">
+    <center><h1><u><b><i>Room Details</i></b></u></h1></center>
+    <div class="flex_div" style="max-width: 250px;">
+          
+      <div class="input-group date" style="margin-left: 20px; margin-bottom: 20px;">
+          <!-- Sets the calendar icon -->
+          <span class="input-group-prepend">
+              <span class="input-group-text">
+                  <i class="fa fa-calendar" 
+                      onclick="setDatepicker(this)">
+                  </i>
+              </span>
+          </span>
+
+          <!-- Accepts the input from calendar -->
+          <input class="form-control" type="text" 
+              name="dob" id="dob" value="" placeholder="Check In">
+      </div>
+      <div class="input-group date" style="margin-left: 20px; margin-bottom: 20px;">
+        <!-- Sets the calendar icon -->
+        <span class="input-group-prepend">
+            <span class="input-group-text">
+                <i class="fa fa-calendar" 
+                    onclick="setDatepicker(this)">
+                </i>
+            </span>
+        </span>
+
+        <!-- Accepts the input from calendar -->
+        <input class="form-control" type="text" 
+            name="dob" id="dob" value="" placeholder="Check Out">
+    </div>
+  </div>
+
+   </div>
+  
+  <div class="flex_div">
+    <fieldset id="room_details_fieldset">
+      <div> <table width="100%">
+                   
+       <tr><th>Four Bed A/C <hr></th><th width="10"></th><th>Double Bed A/C<hr></th></tr>
+       <tr><td>Non A/C<hr></td><td width="10"></td><td>Non A/C<hr></td></tr>
+      <tr><td>2 Rooms<hr></td><td width="10"></td><td>8 Rooms<hr></td></tr>
+      <tr><td colspan="3">  <strong>Conference Hall </strong> &nbsp;&nbsp;&nbsp; A.C /  Non A.C  <hr> </td></tr>
+       <tr><td colspan="3">  <strong>Dormitory Hall  </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  A.C /  Non A.C  <hr> </td></tr>
+             
+             
+             </table>
+           
+           </div>
+     </fieldset>
+     
+  </div>
+  <footer>
+    <div>
+        <div class="row">
+          <div class="footer-col">
+            <h4>Modules</h4>
+            <ul>
+                
+             <li>  
+             <a href="services.html">Services Module</a>  
+             </li>  
+             <li> <a href="viewDetails.html">Add Visitors Module</a>  
+             </li>   
+             <li>  
+             <a href="index.html">Room Details Mudule</a>  
+             </li> 
+             <li>  
+             <a href="#">View Visitors Module</a>  
+             </li> 
+             <li>  
+             <a href="services.html">View Rooms Module</a>  
+             </li> 
+             
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Get help</h4>
+            <ul>
+           <li><a href="#">About-Us</a></li> 
+             <li><a href="gallery.html">Gallery</a></li>  
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact Us</h4>
+            <ul>
+                <li><a href="#"></a>
+                </li>
+              <li><img src="./img/rel_icon.png" width="70px" alt=""><a href="#">Shree Samadhi Temple<br>Shegaon</a></li>
+              <li><a href="#">Phone Number:4569-2698-90</a></li>
+              <li><a href="#">Email: bhaktnivas@gmail.com</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4><br>
+            <div class="social-links">
+           <a href="#"><img class= "icons" src="./img/fb_icon.png" alt=""></a>
+           <a href="#"><img class= "icons" src="./img/twittr_icon.jpg" alt=""></a>
+           <a href="#"><img class= "icons" src="./img/insta_icon.png" alt=""></a>
+           <a href="#"><img class= "icons" src="./img/utube_icon.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+</footer>
+</body>
+</html>
